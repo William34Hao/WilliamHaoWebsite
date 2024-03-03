@@ -15,7 +15,7 @@ function updateContent() {
         roleElement.textContent = '欢迎来到我的个人主页';
     } else {
         nameElement.textContent = 'WilliamHao';
-        roleElement.textContent = 'Wellcome To My Personal Introduction Website';
+        roleElement.textContent = 'Welcome To My Personal Introduction Website';
     }
 }
 particlesJS('particles-js', {
