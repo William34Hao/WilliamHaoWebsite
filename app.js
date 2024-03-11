@@ -17,6 +17,16 @@ function updateContent() {
         nameElement.textContent = 'WilliamHao';
         roleElement.textContent = 'Welcome To My Personal Introduction Website';
     }
+    const nameElement2 = document.getElementById('name2');
+    const roleElement2 = document.getElementById('role2');
+
+    if (language === 'en') {
+        nameElement2.textContent = '个人简历';
+        roleElement2.textContent = '个人写照';
+    } else {
+        nameElement2.textContent = 'Experience';
+        roleElement2.textContent = 'Portrayal';
+    }
 }
 particlesJS('particles-js', {
     particles: {
